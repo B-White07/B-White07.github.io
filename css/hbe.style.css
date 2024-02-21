@@ -38,7 +38,7 @@
 	border: none;
 	border-radius: 0;
 	background: #f0f0f0;
-	color: #aaa;
+	color: #f6f2f1;
 	font-weight: 400;
 	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
@@ -53,7 +53,7 @@
 	float: right;
 	padding: 0 1em;
 	width: 40%;
-	color: #696969;
+	color: #f6f2f1;
 	font-weight: bold;
 	font-size: 70.25%;
 	-webkit-font-smoothing: antialiased;
