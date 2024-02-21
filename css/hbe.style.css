@@ -38,7 +38,7 @@
 	border: none;
 	border-radius: 0;
 	background: #f0f0f0;
-	color: #f6f2f1;
+	color: #aaa;
 	font-weight: 400;
 	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
@@ -53,7 +53,7 @@
 	float: right;
 	padding: 0 1em;
 	width: 40%;
-	color: #f6f2f1;
+	color: #696969;
 	font-weight: bold;
 	font-size: 70.25%;
 	-webkit-font-smoothing: antialiased;
@@ -136,7 +136,7 @@
 	background: transparent;
 	padding: 0.5em;
 	margin-bottom: 2em;
-	color: #f6f2f1;
+	color: #f9f7f6;
 	z-index: 100;
 	opacity: 0;
 }
@@ -160,7 +160,7 @@
 
 .hbe-input-label-default::before {
 	height: 100%;
-	background: #f6f2f1;
+	background: #ffffff;
 	top: 0;
 	-webkit-transform: translate3d(0, -100%, 0);
 	transform: translate3d(0, -100%, 0);
@@ -170,7 +170,7 @@
 
 .hbe-input-label-default::after {
 	height: 2px;
-	background: #f6f2f1;
+	background: #ffffff;
 	top: 100%;
 	-webkit-transition: opacity 0.2s;
 	transition: opacity 0.2s;
@@ -231,7 +231,7 @@
 	opacity: 0;
 	padding: 0.35em;
 	z-index: 100;
-	color: #f6f2f1;
+	color: #837482;
 }
 
 .hbe-input-label-up {
@@ -240,7 +240,7 @@
 	position: absolute;
 	pointer-events: none;
 	text-align: left;
-	color: #f6f2f1;
+	color: #8E9191;
 	padding: 0 0.5em;
 }
 
@@ -251,8 +251,8 @@
 	height: 4em;
 	top: 100%;
 	left: 0;
-	background: #f6f2f1;
-	border-top: 4px solid #f6f2f1;
+	background: #fff;
+	border-top: 4px solid #9B9F9F;
 	-webkit-transform: translate3d(0, -3px, 0);
 	transform: translate3d(0, -3px, 0);
 	-webkit-transition: -webkit-transform 0.4s;
@@ -289,7 +289,7 @@
 
 .hbe-input-field-up:focus + .hbe-input-label-up .hbe-input-label-content-up,
 .input--filled .hbe-input-label-content-up {
-	color: #f6f2f1;
+	color: #6B6E6E;
 	-webkit-transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
 	transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
 }
@@ -305,7 +305,7 @@
 	padding: 0.5em 0em 0.25em;
 	width: 100%;
 	background: transparent;
-	color: #f6f2f1;
+	color: #9da8b2;
 	font-size: 1.25em;
 }
 
@@ -393,7 +393,7 @@
 	left: 0;
 	height: 100%;
 	width: 100%;
-	color: #f6f2f1;
+	color: #ffffff;
 	padding: 0.25em 0;
 	letter-spacing: 1px;
 	font-size: 1em;
@@ -414,7 +414,7 @@
 .hbe-input-field-flip:focus + .hbe-input-field-flip,
 .input--filled .hbe-input-field-flip {
 	background-color: transparent;
-	border-color: #f6f2f1;
+	border-color: #ffffff;
 }
 /* flip theme }}} */
 
