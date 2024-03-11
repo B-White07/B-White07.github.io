@@ -4,24 +4,11 @@
   
     
     <entry>
-      <title>domain test</title>
-      <link href="/posts/e212475.html"/>
-      <url>/posts/e212475.html</url>
-      
-        <content type="html"><![CDATA[<p>Just a test</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>更换域名</title>
       <link href="/posts/4ded3bd7.html"/>
       <url>/posts/4ded3bd7.html</url>
       
-        <content type="html"><![CDATA[<h1>域名购买</h1><p>来到<a href="https://www.namesilo.com/">namesilo.com</a>购买一个喜欢的域名，在这里购买域名需要付费，但是价格并不高，但是注意一下续订的费用，有的域名第一年价格不高但是续费比较贵。不想付费的朋友可以自行百度一下免费的域名注册网站。</p><img src="/img/namesilo.png" alt="namesilo" style="zoom:50%;" /><p>付款之前可以Google一下namesilo优惠券，一般能省个1刀左右。</p><p>购买后回到namesilo的主页，在Dashboard中，可以在Active Domains中查看已有域名（第一次点击此项的时候需要你完成一些个人信息，随便找个虚拟信息生成网站就行，但是邮箱建议填真实的）。一会儿需要再此页面做一些改动，先留着。</p><h1>域名解析</h1><p>来到<a href="https://dash.cloudflare.com/">cloudflare</a>,点击添加站点</p><img src="/img/cloudflare1.png" alt="cloudflare1" style="zoom:50%;" /><p>将刚才购买的域名输入，点击继续，选择最下边的免费计划，点击继续</p><img src="/img/cloudflare2.png" alt="cloudflare2" style="zoom:50%;" /><p>然后下拉找到cloudflare提供的两个服务器地址</p><img src="/img/cloudflare3.png" alt="cloudflare3" style="zoom:50%;" /><p>然后回到刚刚namesilo的域名管理页面，点击你购买的域名，会跳转到一个域名的详细信息页面，下拉找到NameServers处，点击Change,将默认的三个地址删除掉，替换为上图中的两个地址，然后提交。</p><img src="/img/namesilo2.png" alt="namesilo2" style="zoom:50%;" /><p>改好以后回到cloudflare，设置一下域名的DNS</p><img src="/img/cloudflareDNS.png" alt="cloudflareDNS" style="zoom:50%;" /><p>按图示添加一条A记录和一条CNAME记录，其中A记录的内容需要ping一下自己的<strong><a href="http://xx.github.io">xx.github.io</a></strong>来获取。</p><p>做好这些工作以后，等个几分钟，域名解析就会完成了。</p>]]></content>
+        <content type="html"><![CDATA[<h1>域名购买</h1><p>来到<a href="https://www.namesilo.com/">namesilo.com</a>购买一个喜欢的域名，在这里购买域名需要付费，但是价格并不高，但是注意一下续订的费用，有的域名第一年价格不高但是续费比较贵。不想付费的朋友可以自行百度一下免费的域名注册网站。</p><img src="/img/namesilo.png" alt="namesilo" style="zoom:50%;" /><p>付款之前可以Google一下namesilo优惠券，一般能省个1刀左右。</p><p>购买后回到namesilo的主页，在Dashboard中，可以在Active Domains中查看已有域名（第一次点击此项的时候需要你完成一些个人信息，随便找个虚拟信息生成网站就行，但是邮箱建议填真实的）。一会儿需要再此页面做一些改动，先留着。</p><h1>域名解析</h1><p>来到<a href="https://dash.cloudflare.com/">cloudflare</a>,点击添加站点</p><img src="/img/cloudflare1.png" alt="cloudflare1" style="zoom:50%;" /><p>将刚才购买的域名输入，点击继续，选择最下边的免费计划，点击继续</p><img src="/img/cloudflare2.png" alt="cloudflare2" style="zoom:50%;" /><p>然后下拉找到cloudflare提供的两个服务器地址</p><img src="/img/cloudflare3.png" alt="cloudflare3" style="zoom:50%;" /><p>然后回到刚刚namesilo的域名管理页面，点击你购买的域名，会跳转到一个域名的详细信息页面，下拉找到NameServers处，点击Change,将默认的三个地址删除掉，替换为上图中的两个地址，然后提交。</p><img src="/img/namesilo2.png" alt="namesilo2" style="zoom:50%;" /><p>改好以后回到cloudflare，设置一下域名的DNS</p><img src="/img/cloudflareDNS.png" alt="cloudflareDNS" style="zoom:50%;" /><p>按图示添加一条A记录和一条CNAME记录，其中A记录的内容需要ping一下自己的<strong><a href="http://xx.github.io">xx.github.io</a></strong>来获取。</p><p>做好这些工作以后，等个几分钟，域名解析就会完成了。</p><h1>设置GitHub page的domain</h1><p>上述步骤完成后，在<code>hexo/source/</code>下新建一个名为<code>CNAME</code>的文件，注意不要有后缀，将你的域名放进去，比如我的就是<code>bwhite.top</code>，然后这个域名就可以正常使用了。</p><p>有的朋友可能会在github项目仓库的setting中设置page的domain,这么做每次新发布一篇文章都需要重新设置一下这个选项，很麻烦。上边的方法可以一劳永逸。</p><blockquote><p>参考资料：</p><p>github docs <a href="https://docs.github.com/cn/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/cn/pages/getting-started-with-github-pages/about-github-pages</a> Cloudflare <a href="https://zh.wikipedia.org/wiki/Cloudflare">https://zh.wikipedia.org/wiki/Cloudflare</a></p><p>GitHub Pages自定义域名使用Cloudflare无法Enforce HTTPS解决方法 <a href="https://blog.imfang.net/web/118.html">https://blog.imfang.net/web/118.html</a></p><p><a href="https://cloud.tencent.com/developer/article/2298074?areaId=106001">https://cloud.tencent.com/developer/article/2298074?areaId=106001</a></p></blockquote>]]></content>
       
       
       <categories>
@@ -205,19 +192,6 @@
             <tag> diary </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>latex test</title>
-      <link href="/posts/4d56e4ff.html"/>
-      <url>/posts/4d56e4ff.html</url>
-      
-        <content type="html"><![CDATA[<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>α</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>θ</mi></mrow><annotation encoding="application/x-tex">\alpha and \theta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mord mathnormal">an</span><span class="mord mathnormal">d</span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> shifoushengxiao</p><p>kl</p>]]></content>
-      
-      
       
     </entry>
     
