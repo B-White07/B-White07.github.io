@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>接入GoogleAdsense和谷歌搜索</title>
+      <link href="/posts/a27dc42e.html"/>
+      <url>/posts/a27dc42e.html</url>
+      
+        <content type="html"><![CDATA[<h1>Google Adsense</h1><p>bufferfly配置文件中集成了Google Adsense，但是修改配置文件后发现并不能成功接入Google Adsense，通过对比修改配置文件后的网页源文件和Google Adsense要求的格式，发现两者细节上有一些差别，于是我<strong>禁用了主题配置文件中的Google Adsense</strong>，转而按照Google Adsense的要求重新接入。</p><p>找到<code>主题配置文件</code>的inject,将Google Adsense给出的html验证方式的代码粘贴进去即可。</p><h1>被Google收录</h1><p>来到<a href="search.google.com/search-console">Google Search Console</a>,选择网络前缀类型，将网站地址粘贴进去。接着验证网站所有权，他推荐的方法我试过了但是总是出错，于是我选择html方式验证网站的所有权，方法和Google Adsense的验证方法一样，将他给你的代码粘到<code>主题配置文件</code>的inject中，验证成功后就完成了被谷歌收录。</p><p>一个验证是否被收录的方法是打开Google，输入<code>site:yoursite</code>看看能不能搜出来东西，能搜出来说明被收录了<img src="/img/googleSearch.png" alt="googleSearch" style="zoom:50%;" /></p><p>这个其实我在配置之前就能搜到了，不知道怎么回事。但是我配置被百度收录的时候，一直搜不到，不知道是不是githubpage不能被百度收录的原因。</p><hr><p>为了使搜索引擎更智能的抓取网站，可以给网站配置一个站点地图：首先到hexo的根目录，通过<code>npm install hexo-generator-sitemap --save</code>安装所需要的插件，然后在<code>hexo配置文件</code>中添加对应代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Plugins:</span><br><span class="line">- hexo-generator-sitemap</span><br><span class="line"></span><br><span class="line">sitemap:</span><br><span class="line">    path: sitemap.xml</span><br></pre></td></tr></table></figure><p>然后重新部署一下，public目录下生成了sitemap.xml就代表成功了。</p><hr><p>然后回到<a href="search.google.com/search-console">Google Search Console</a>,选择站点地图，将<code>sitemap.xml</code>添加到url后面，提交后看一下状态是否成功，我遇到了<strong>此位置的sitemap不允许此网站</strong>的错误。解决方法是修改<code>hexo配置文件</code>，找到<code>url</code>这一项，将后边的url修改为正确的地址即可：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line">url: https://bwhite.top <span class="comment">##修改这里</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> DIY </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>更换域名</title>
       <link href="/posts/4ded3bd7.html"/>
       <url>/posts/4ded3bd7.html</url>

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bwhite.top/posts/a27dc42e.html</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bwhite.top/posts/acf03113.html</loc>
     
     <lastmod>2024-03-12</lastmod>
@@ -233,13 +242,6 @@
   </url>
   
   <url>
-    <loc>https://bwhite.top/tags/macos/</loc>
-    <lastmod>2024-03-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://bwhite.top/tags/AI/</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,6 +250,13 @@
   
   <url>
     <loc>https://bwhite.top/tags/machine-learning/</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bwhite.top/tags/macos/</loc>
     <lastmod>2024-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
