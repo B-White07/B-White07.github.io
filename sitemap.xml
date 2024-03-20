@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://bwhite.top/test.html</loc>
-    
-    <lastmod>2024-03-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://bwhite.top/posts/a27dc42e.html</loc>
     
     <lastmod>2024-03-14</lastmod>
@@ -216,13 +207,6 @@
   </url>
   
   <url>
-    <loc>https://bwhite.top/tags/privacy/</loc>
-    <lastmod>2024-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://bwhite.top/tags/shortcut/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -230,7 +214,28 @@
   </url>
   
   <url>
+    <loc>https://bwhite.top/tags/privacy/</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://bwhite.top/tags/macos/</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bwhite.top/tags/AI/</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bwhite.top/tags/machine-learning/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -252,20 +257,6 @@
   
   <url>
     <loc>https://bwhite.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2024-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bwhite.top/tags/AI/</loc>
-    <lastmod>2024-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://bwhite.top/tags/machine-learning/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -295,14 +286,14 @@
   </url>
   
   <url>
-    <loc>https://bwhite.top/categories/DIY/</loc>
+    <loc>https://bwhite.top/categories/Machine-Learning/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://bwhite.top/categories/Machine-Learning/</loc>
+    <loc>https://bwhite.top/categories/DIY/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
