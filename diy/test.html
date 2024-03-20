@@ -136,10 +136,10 @@
         getQueryString("end") ||
         (params && params.date_range && params.date_range[1]) ||
         "";
-      let _start = start_p ? new Date(start_p) : new Date(`${now_year}/01/01`),
+      let _start = start_p ? new Date(start_p) : new Date(`${now_year}/03/18`),
         _end = end_p ?
         (new Date(end_p)) :
-        new Date(`${now_year}/12/20 23: 59`),
+        new Date(`${now_year}/12/21 09: 00`),
         _now = new Date();
       _end.setHours(23), _end.setMinutes(59);
       let percent = 0,
