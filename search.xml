@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>pytorch</title>
+      <link href="/posts/68f29f36.html"/>
+      <url>/posts/68f29f36.html</url>
+      
+        <content type="html"><![CDATA[<h1>环境配置</h1><p>作为学习，还是用anaconda新建一个虚拟环境比较好.在terminal中<code>conda create -n pytorch python=3.8 -y</code>新建一个环境，使用python3.8版本。然后切换到pytorch环境，<code>pip list</code>看一下有什么包，发现没有pytorch，于是需要自己安装一下。来到<a href="https://pytorch.org/">pyorch官网</a>,根据自己电脑型号选择对应版本，他会自动生成一条安装命令，在当前虚拟环境运行即可。</p><p>安装好了以后，再配置一下pycharm和Jupyter，以后两个应该都会用。<br>pycharm中新建一个项目，<code>File-&gt;New Project-&gt;Pure Python-&gt;Python Interpreter-&gt;Previously Configured Interpreter-&gt;Add Interpreter-&gt;Add Local Interpreter-&gt;Conda Environment-&gt;Use existing environment</code>选择自己刚刚创建的虚拟环境。这里我的pycharm是2022的，不同版本可能略有差异。<br>然后配置Jupyter，新建的虚拟环境也是没有Jupyter的，需要安装相关依赖。在相应的虚拟环境中运行<code>conda install nb_conda</code>安装nb_conda,这是一个用于在Jupyter Notebook中管理Conda环境的扩展，运行以后就可以在Jupyter中使用创建的环境。安装好以后在环境中运行<code>Jupyter notebook</code>就可以启动了，启动后notebook页面的new下面会出现自己创建的环境。</p><p>至此，相关环境就已经配置好了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C++STL</title>
       <link href="/posts/366bea49.html"/>
       <url>/posts/366bea49.html</url>
